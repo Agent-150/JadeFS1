@@ -68,7 +68,7 @@ class Bot(Client):
                     f"Pastikan @{self.username} adalah admin di Channel Tersebut, Chat ID F-Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://telegram.me/SharingUserbot1 untuk Bantuan"
                 )
                 sys.exit()
 
