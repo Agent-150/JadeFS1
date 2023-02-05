@@ -40,7 +40,7 @@ async def get_bot_logs(client: Bot, m: Message):
             os.remove(bot_log_path)
             LOGGER(__name__).warning(e)
     elif not os.path.exists(bot_log_path):
-        await m.reply_text("❌ <b>Tidak ada log yang ditemukan!</b>")
+        await m.reply_text("❌ <b> Just A File Sharing Bot</b>")
 
 
 @Bot.on_message(filters.command("vars") & filters.user(ADMINS))
